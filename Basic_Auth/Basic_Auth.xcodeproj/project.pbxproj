@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3928FBCA1481C35D004B7C1D /* Polaroid_Frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 3928FBC91481C35D004B7C1D /* Polaroid_Frame.png */; };
+		3962ED461481F4E200335873 /* CommitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3962ED451481F4E200335873 /* CommitsViewController.m */; };
+		3962ED4A1481FD1C00335873 /* CommitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3962ED491481FD1C00335873 /* CommitCell.m */; };
+		39658E36148189A500F46F13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39658E35148189A500F46F13 /* UIKit.framework */; };
+		39658E38148189A500F46F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39658E37148189A500F46F13 /* Foundation.framework */; };
+		39658E3A148189A500F46F13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39658E39148189A500F46F13 /* CoreGraphics.framework */; };
+		39658E40148189A500F46F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39658E3E148189A500F46F13 /* InfoPlist.strings */; };
+		39658E42148189A500F46F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E41148189A500F46F13 /* main.m */; };
+		39658E46148189A500F46F13 /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E45148189A500F46F13 /* BAAppDelegate.m */; };
+		39658E49148189A500F46F13 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39658E47148189A500F46F13 /* MainStoryboard.storyboard */; };
+		39658E4C148189A500F46F13 /* BAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E4B148189A500F46F13 /* BAMasterViewController.m */; };
+		39658E4F148189A500F46F13 /* BADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E4E148189A500F46F13 /* BADetailViewController.m */; };
+		39658E5614818F2A00F46F13 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 39658E5514818F2A00F46F13 /* Login.png */; };
+		39658E591481907E00F46F13 /* LoginFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E581481907E00F46F13 /* LoginFormViewController.m */; };
+		39658E621481B7F800F46F13 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 39658E611481B7F800F46F13 /* Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3928FBC91481C35D004B7C1D /* Polaroid_Frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polaroid_Frame.png; sourceTree = "<group>"; };
+		3962ED441481F4E200335873 /* CommitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitsViewController.h; sourceTree = "<group>"; };
+		3962ED451481F4E200335873 /* CommitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitsViewController.m; sourceTree = "<group>"; };
+		3962ED481481FD1C00335873 /* CommitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommitCell.h; sourceTree = "<group>"; };
+		3962ED491481FD1C00335873 /* CommitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommitCell.m; sourceTree = "<group>"; };
+		39658E31148189A500F46F13 /* Basic_Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic_Auth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39658E35148189A500F46F13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39658E37148189A500F46F13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39658E39148189A500F46F13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39658E3D148189A500F46F13 /* Basic_Auth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Basic_Auth-Info.plist"; sourceTree = "<group>"; };
+		39658E3F148189A500F46F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39658E41148189A500F46F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39658E43148189A500F46F13 /* Basic_Auth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic_Auth-Prefix.pch"; sourceTree = "<group>"; };
+		39658E44148189A500F46F13 /* BAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
+		39658E45148189A500F46F13 /* BAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
+		39658E48148189A500F46F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		39658E4A148189A500F46F13 /* BAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMasterViewController.h; sourceTree = "<group>"; };
+		39658E4B148189A500F46F13 /* BAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMasterViewController.m; sourceTree = "<group>"; };
+		39658E4D148189A500F46F13 /* BADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADetailViewController.h; sourceTree = "<group>"; };
+		39658E4E148189A500F46F13 /* BADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADetailViewController.m; sourceTree = "<group>"; };
+		39658E5514818F2A00F46F13 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		39658E571481907E00F46F13 /* LoginFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginFormViewController.h; sourceTree = "<group>"; };
+		39658E581481907E00F46F13 /* LoginFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginFormViewController.m; sourceTree = "<group>"; };
+		39658E601481B7F800F46F13 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = ../Base64.h; sourceTree = "<group>"; };
+		39658E611481B7F800F46F13 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = ../Base64.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39658E2E148189A500F46F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39658E36148189A500F46F13 /* UIKit.framework in Frameworks */,
+				39658E38148189A500F46F13 /* Foundation.framework in Frameworks */,
+				39658E3A148189A500F46F13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39658E26148189A500F46F13 = {
+			isa = PBXGroup;
+			children = (
+				39658E3B148189A500F46F13 /* Basic_Auth */,
+				39658E34148189A500F46F13 /* Frameworks */,
+				39658E32148189A500F46F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39658E32148189A500F46F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39658E31148189A500F46F13 /* Basic_Auth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39658E34148189A500F46F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39658E35148189A500F46F13 /* UIKit.framework */,
+				39658E37148189A500F46F13 /* Foundation.framework */,
+				39658E39148189A500F46F13 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39658E3B148189A500F46F13 /* Basic_Auth */ = {
+			isa = PBXGroup;
+			children = (
+				39658E44148189A500F46F13 /* BAAppDelegate.h */,
+				39658E45148189A500F46F13 /* BAAppDelegate.m */,
+				39658E47148189A500F46F13 /* MainStoryboard.storyboard */,
+				3962ED441481F4E200335873 /* CommitsViewController.h */,
+				3962ED451481F4E200335873 /* CommitsViewController.m */,
+				3962ED481481FD1C00335873 /* CommitCell.h */,
+				3962ED491481FD1C00335873 /* CommitCell.m */,
+				39658E571481907E00F46F13 /* LoginFormViewController.h */,
+				39658E581481907E00F46F13 /* LoginFormViewController.m */,
+				39658E4A148189A500F46F13 /* BAMasterViewController.h */,
+				39658E4B148189A500F46F13 /* BAMasterViewController.m */,
+				39658E4D148189A500F46F13 /* BADetailViewController.h */,
+				39658E4E148189A500F46F13 /* BADetailViewController.m */,
+				39658E601481B7F800F46F13 /* Base64.h */,
+				39658E611481B7F800F46F13 /* Base64.m */,
+				39658E3C148189A500F46F13 /* Supporting Files */,
+			);
+			path = Basic_Auth;
+			sourceTree = "<group>";
+		};
+		39658E3C148189A500F46F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3928FBC91481C35D004B7C1D /* Polaroid_Frame.png */,
+				39658E5514818F2A00F46F13 /* Login.png */,
+				39658E3D148189A500F46F13 /* Basic_Auth-Info.plist */,
+				39658E3E148189A500F46F13 /* InfoPlist.strings */,
+				39658E41148189A500F46F13 /* main.m */,
+				39658E43148189A500F46F13 /* Basic_Auth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39658E30148189A500F46F13 /* Basic_Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39658E52148189A500F46F13 /* Build configuration list for PBXNativeTarget "Basic_Auth" */;
+			buildPhases = (
+				39658E2D148189A500F46F13 /* Sources */,
+				39658E2E148189A500F46F13 /* Frameworks */,
+				39658E2F148189A500F46F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Basic_Auth;
+			productName = Basic_Auth;
+			productReference = 39658E31148189A500F46F13 /* Basic_Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39658E28148189A500F46F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = vaughn;
+			};
+			buildConfigurationList = 39658E2B148189A500F46F13 /* Build configuration list for PBXProject "Basic_Auth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39658E26148189A500F46F13;
+			productRefGroup = 39658E32148189A500F46F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39658E30148189A500F46F13 /* Basic_Auth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39658E2F148189A500F46F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39658E40148189A500F46F13 /* InfoPlist.strings in Resources */,
+				39658E49148189A500F46F13 /* MainStoryboard.storyboard in Resources */,
+				39658E5614818F2A00F46F13 /* Login.png in Resources */,
+				3928FBCA1481C35D004B7C1D /* Polaroid_Frame.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39658E2D148189A500F46F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39658E42148189A500F46F13 /* main.m in Sources */,
+				39658E46148189A500F46F13 /* BAAppDelegate.m in Sources */,
+				39658E4C148189A500F46F13 /* BAMasterViewController.m in Sources */,
+				39658E4F148189A500F46F13 /* BADetailViewController.m in Sources */,
+				39658E591481907E00F46F13 /* LoginFormViewController.m in Sources */,
+				39658E621481B7F800F46F13 /* Base64.m in Sources */,
+				3962ED461481F4E200335873 /* CommitsViewController.m in Sources */,
+				3962ED4A1481FD1C00335873 /* CommitCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39658E3E148189A500F46F13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39658E3F148189A500F46F13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39658E47148189A500F46F13 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39658E48148189A500F46F13 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39658E50148189A500F46F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		39658E51148189A500F46F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39658E53148189A500F46F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic_Auth/Basic_Auth-Prefix.pch";
+				INFOPLIST_FILE = "Basic_Auth/Basic_Auth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39658E54148189A500F46F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic_Auth/Basic_Auth-Prefix.pch";
+				INFOPLIST_FILE = "Basic_Auth/Basic_Auth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39658E2B148189A500F46F13 /* Build configuration list for PBXProject "Basic_Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39658E50148189A500F46F13 /* Debug */,
+				39658E51148189A500F46F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39658E52148189A500F46F13 /* Build configuration list for PBXNativeTarget "Basic_Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39658E53148189A500F46F13 /* Debug */,
+				39658E54148189A500F46F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39658E28148189A500F46F13 /* Project object */;
+}
